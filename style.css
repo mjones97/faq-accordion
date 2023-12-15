@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "work-sans";
+    src: url(./assets/fonts/static/WorkSans-Regular.ttf)
+}
+
+@font-face {
+    font-family: "work-sans-bold";
+    src: url(./assets/fonts/static/WorkSans-Bold.ttf)
+}
+
+@font-face {
+    font-family: "work-sans-semi";
+    src: url(./assets/fonts/static/WorkSans-SemiBold.ttf)
+}
+
+body {
+    background-color: #F8EEFF;
+}
+
+h1 {
+    color: #301534;
+    font-family: 'work-sans-bold';
+    font-size: 56px;
+    line-height: normal;
+}
+
+p {
+    color: #2f1533;
+    font-family: 'work-sans-semi';
+    font-size: 16px;
+    line-height: normal;
+}
+
+span {
+    color: #8c6991;
+}
+
+.wrapper {
+    width: 600px;
+    box-shadow: 0px 32px 56px 0px rgba(80, 0, 118, 0.10);
+}
+
+.question-container {
+    cursor: pointer;
+    position: relative;
+}
+
+.icon-plus,
+.icon-minus {
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.question-container p:hover {
+    color: #AD28EB;
+}
