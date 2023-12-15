@@ -1,4 +1,4 @@
-# FAQ Accordion Readme
+# FAQ Accordion
 
 ## Overview
 
